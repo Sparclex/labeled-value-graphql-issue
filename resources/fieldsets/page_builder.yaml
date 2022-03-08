@@ -1,0 +1,17 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: page_builder
+    field:
+      collapse: false
+      sets:
+        jobs:
+          display: Jobs
+          fields:
+            -
+              import: jobs
+      display: 'Page Builder'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

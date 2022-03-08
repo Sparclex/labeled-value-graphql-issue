@@ -1,0 +1,20 @@
+title: Jobs
+fields:
+  -
+    handle: jobs
+    field:
+      options:
+        admin: Admin
+        user: User
+        guest: Guest
+      multiple: true
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Jobs
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above

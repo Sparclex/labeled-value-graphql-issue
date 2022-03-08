@@ -14,10 +14,10 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_GRAPHQL_ENABLED', false),
+    'enabled' => true,
 
     'resources' => [
-        'collections' => false,
+        'collections' => true,
         'navs' => false,
         'taxonomies' => false,
         'assets' => false,
@@ -36,7 +36,7 @@ return [
     | more details on how to customize your cache implementation.
     |
     | https://statamic.dev/graphql#caching
-    |
+-    |
     */
 
     'cache' => [
